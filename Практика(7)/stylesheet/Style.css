@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;1,200&display=swap');
+html {
+    width: 100vw;
+    height: 147vh;
+    text-decoration: none;
+    position: relative;
+    
+}
+
+body {
+    background: #fff url(../img/Fon_img.jpg) center center no-repeat;
+    background-color: #1b1b1b;
+    background-size: cover;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ГРАДИЕНТНЫЕ НАВЕДЕНИЯ(1 СТРОКА)*/
+.container_bl a {
+    text-decoration: none;
+}
+
+.container_bl {
+    
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 7rem;
+
+}
+
+.text_block {
+    
+    position: relative;
+}
+
+.text_block div {
+    
+    width: 8rem;
+    height: 17rem;
+    transform: skewX(25deg);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.text_block .btn a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(25deg) translateX(0);
+    transition: 0.35s;
+}
+
+.text_block:hover a::before {
+    transform: skewX(25deg) translate(250%);
+}
+
+.btn_1 {
+    
+    background: linear-gradient(orange, red);
+
+    filter: drop-shadow(0px 0px 6px orange);
+    transition: 0.5s;
+}
+
+.btn_2 {
+    background: linear-gradient(#f34848, #0f0f97, blue);
+    filter: drop-shadow(0px 0px 5px blue);
+    transition: 0.5s;
+}
+
+.btn_3 {
+    background: linear-gradient(#ffff06, #159515);
+    filter: drop-shadow(0px 0px 6px yellow);
+    transition: 0.5s;
+}
+
+.text_block .icon {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: -40%;
+    top: 20%;
+    transform: skewX(0deg);
+    backdrop-filter: blur(10px);
+    height: 10rem;
+    width: 15rem;
+    vertical-align: middle;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 7px;
+    z-index: 2;
+    color: white;
+    transition: 0.5s;
+}
+
+.container_bl h1,
+p {
+    font-size: 1.6rem;
+    float: left;
+    margin: 10px;
+
+}
+
+.container_bl p {
+    padding: 10px;
+}
+
+.text_block:hover .btn_1 {
+    transform: skewX(0deg);
+}
+
+.text_block:hover .btn_2 {
+    transform: skewX(0deg);
+}
+
+.text_block:hover .btn_3 {
+    transform: skewX(0deg);
+}
+
+
+.text_block:hover .icon {
+    top: 7%;
+    width: 20rem;
+    padding: 1rem;
+    height: 15rem;
+    transform: translateX(-3vw);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*КНОПОЧКИ 2 СТРОКА*/
+.container_2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 0;
+/*    top: 100vh;*/
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*надо задать еще position relative and overflow hidden*/
+
+.social__icon{
+  text-decoration: none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #00000080;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow:hidden;
+}
+
+.social__icon i {
+  font-size: 26px;
+  color: #67798e;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.social__icon:after{
+  content: "";
+  width: 70px;
+  height: 70px;
+  position:absolute;
+  transform: translate(0, -70px);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social__icon.instagram:after{
+  background: linear-gradient(orange, red);
+}
+.social__icon.facebook:after{
+   background: linear-gradient(orange, red);
+}
+.social__icon.git:after{
+   background: linear-gradient(orange, red);
+}
+.social__icon.twitter:after{
+   background: linear-gradient(orange, red);
+}
+.social__icon.linkedin:after{
+   background: linear-gradient(orange, red);
+}
+.social__icon:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 0px 15px #00000080;
+}
+
+.social__icon:hover i{
+   color: #fff;
+}
+
+.social__icon:hover:after{
+  transform: translate(0);
+}
+/*БЛОК РЕГИСТАРЦИИ*/
+.registration{
+    position: fixed;
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    right: 5%;
+    z-index: 25;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*КАРТОЧКИ (5)*/
+.container_4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+    
+}
+.box_4{
+    padding: 30px;
+}
+.box_4 h1{
+    padding: 20px;
+}
+.box_4{
+    opacity: 0.9;
+}
+/*
+.box_4_1{
+    position: absolute;
+    left: 12.6%;
+}
+.box_4_2{
+    position: absolute;
+    left: 46.5%;
+}
+.box_4_3{
+    position: absolute;
+    left: 78.9%;
+}
+*/
+.box_4{
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(54 43 43);
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    color: silver;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*КАРТОЧКИ (4)*/
+
+body .container {
+    display: flex;
+    align-items: center;
+/*    justify-content: space-between;*/
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+body .container .card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  background: #000;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+body .container .card .face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .card .face.face1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+body .container .card .face.face1 h2 {
+  margin: 0;
+  padding: 0;
+}
+body .container .card .face.face1 .java {
+  background-color: #fffc00;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .container .card .face.face1 .python {
+  background-color: #00fffc;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .container .card .face.face1 .cSharp {
+  background-color: #fc00ff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .container .card .face.face2 {
+  transition: 0.5s;
+}
+body .container .card .face.face2 h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 10em;
+  color: #fff;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+body .container .card:hover .face.face2 {
+  height: 60px;
+}
+body .container .card:hover .face.face2 h2 {
+  font-size: 2em;
+}
+body .container .card:nth-child(1) .face.face2 {
+  background-image: linear-gradient(40deg, #fffc00 0%, #fc00ff 45%, #00fffc 100%);
+  border-radius: 15px;
+}
+body .container .card:nth-child(2) .face.face2 {
+  background-image: linear-gradient(40deg, #fc00ff 0%, #00fffc 45%, #fffc00 100%);
+  border-radius: 15px;
+}
+body .container .card:nth-child(3) .face.face2 {
+  background-image: linear-gradient(40deg, #00fffc 0%, #fc00ff 45%, #fffc00 100%);
+  border-radius: 15px;
+}
+.card{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container:hover .card{
+    opacity: 0.1;
+}
+.container .card:hover{
+     opacity:1;
+}
+
+
+
+@media (height: 600px) {
+	html{
+		height: 190%;
+	}
+}
+@media (height: 800px) {
+	html{
+		height: 180%;
+	}
+}
+
+@media (min-width: 1500px)
+{
+.box_4_1{
+    position: absolute;
+    left: 12.6%;
+}
+.box_4_2{
+    position: absolute;
+    left: 45.5%;
+}
+.box_4_3{
+    position: absolute;
+    left: 78.9%;
+}
+    
+.social{
+  width: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  transform: translateY(130vh)
+}
+    
+}
+@media (min-width: 1900px)
+{
+    html{
+        height: 165%;
+    }
+  .social{
+  width: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  transform: translateY(115vh)
+}
+}
+@media (max-width: 1500px)
+{
+.social{
+  width: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  transform: translateY(112vh)
+}
+    html{
+        height: 160%;
+    }
+}
+@media (max-width: 1500px) {
+	
+.box_4_1{
+    position: absolute;
+    left: 10.6%;
+}
+.box_4_2{
+    position: absolute;
+    left: 40.5%;
+}
+.box_4_3{
+    position: absolute;
+    left: 70.9%;
+}
+}

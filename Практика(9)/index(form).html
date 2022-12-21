@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylesheet/Form_style.css">
+	<title>Document</title>
+	<script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="stylesheet/Form_style.css">
+</head>
+<body id="main">
+	<section>
+	    <div class="color"></div>
+	    <div class="color"></div>
+	    <div class="color"></div>
+	    <div class="box">
+            <div class="square" style="--i:0;"></div>
+            <div class="square" style="--i:1;"></div>
+            <div class="square" style="--i:2;"></div>
+            <div class="square" style="--i:3;"></div>
+            <div class="square" style="--i:4;"></div>
+	        <div class="container">
+	            <div class="form">
+	                <h2>Login Form</h2>
+	                <form action="">
+	                    <div class="inputBox">
+	                        <input type="text" placeholder="Username">
+	                    </div>
+	                    <div class="inputBox">
+	                        <input type="Password" placeholder="Password">
+	                    </div>
+	                     <div class="inputBox">
+	                        <input type="submit" value="Login">
+	                    </div>
+	                    <p class="forget">Forgot password ? <a
+	                        
+	                     href="#">Click Here</a></p>
+	                      <p class="forget">Don't have an account ? <a
+	                        
+	                     href="#">Sign up</a></p>
+	                </form>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<script src="scripts/Java.js"></script>
+	
+	
+	<div class="btns" onclick="tstjs()">
+        <Button onclick="Toggle1()" id="btnh1" class="btn" onclick="tstjs()"><i class="fas fa-heart"></i></Button>
+       
+    </div>
+	
+	
+	 <script>
+       var btnvar1 = document.getElementById('btnh1');
+
+       function Toggle1(){
+                if (btnvar1.style.color =="red") {
+                    btnvar1.style.color = "grey"
+                }
+                else{
+                    btnvar1.style.color = "red"
+                }
+       }
+    </script>
+    
+  
+    
+    
+    
+	<script>
+      document.getElementById('btnh1').onmousemove = function(e){ 
+        var div = document.createElement('div');
+//        div.innerHTML = "Hello World";
+//        document.body.appendChild(div);
+}
+	 <div id="main"></div>
+       
+    </script>
+	<script>//скрипт для последнего задания
+         var countt =1;
+     function tstjs(){
+//          document.write("Успешно");
+         
+          document.onmousemove=function(Event){
+               countt=countt+1;
+        if (btnvar1.style.color == "red"){
+           let x = Event.x;
+           let y = Event.y;
+           console.log(x+' '+y)
+             // var countt +=1;
+             countt++;
+             
+             countt++;
+        var elem =document.createElement("div");
+              elem.style.background="black";
+              elem.style.width="100px";
+              elem.style.height="100px";
+              //elem.innerHTML="hello";
+              elem.style.color="white";
+              elem.style.position="absolute";
+              elem.style.left=Event.x+"px";
+               elem.style.borderRadius="10%"
+              elem.style.top=Event.y+"px";
+//            if (countt  == 1)
+              document.body.appendChild(elem);
+              console.log(countt++);
+              
+          }
+       }
+          
+      }
+   
+    </script>
+	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	
+</body>
+</html>		 	
+				                                                                                                                                                                   
+                                                                                    
+	 	 			 					 					 					 	 			 					 					 					 	
+
