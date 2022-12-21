@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.container_1 ,nav{
+	display: flex;
+	background-color:yellowgreen;
+	height: 3rem;
+	font-size: 2rem;
+	font-family: 'Pacifico', cursive;
+}
+html {
+overflow-x: hidden;
+overflow-y: scroll;
+	height: 100%;
+	width: 100%;
+}
+.conyainer_1 ,div{
+	display: flex;
+	padding: 2rem;
+	border: 2px solid red;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+.container_1{	
+	position: fixed;
+	width: 100%;
+}
+.box_1{
+	flex: 6;
+	text-decoration: none;
+	padding-left: 2rem;
+}
+.box_2{
+	flex: 1;
+	text-decoration: none;
+}
+.box_3{
+	flex: 1;
+	text-decoration: none;
+}
+body{
+	background: #fff url(../img/palms2.jpg) center center no-repeat;
+	background-size: cover;
+	height: 60rem;
+	
+}
+.main_box{
+	background-color: lightgreen;
+	display: inline-block;
+	margin-top: 20rem;
+	font-family: 'Pacifico', cursive;
+	height: 4rem;
+	width: 10rem;
+	font-size: 2rem;
+	padding-top: 2rem;
+	flex: 4;
+	text-align: center;
+	
+}
+.forecast{
+	position: relative;
+	display: inline-block;
+	left: 80%;
+	font-family: 'Pacifico', cursive;
+	line-height: 1.5;
+	color: darkorange;
+    top: 20%;
+	
+}
+.forecast h1{
+	color: yellow;
+}
+.container_2{
+	display: flex;
+}
+ .aside {
+	display: inline-block;
+    float: left;
+	 height: 250px;
+	 margin-top: 10rem;
+	 line-height: 3.5;
+	 font-family: 'Pacifico', cursive;
+	 font-size: 1.2rem;
+	 width: 10rem;
+	 text-align: center;
+   }
+.aside a{
+text-decoration: none;
+}
+
+a:hover{
+	color : yellow;
+}
+a:active{
+	color:pink;
+}
+.fot{
+	margin-top: 27rem;
+	display: inline-block;
+	width: 20rem;
+	height: 2.5rem;
+	text-align: center;
+	background-color: lightblue;
+    position: absolute;
+	left:42%;
+	font-family: 'Pacifico', cursive;
+	bottom: 0%;
+}
+.smth{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	float: right;
+}
+.smth2{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+
+}
+a{
+	color:black;
+}
+.trash{
+	display: inline-block;
+	left: 20%;
+	bottom: 20%;
+}

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.container_1 ,nav{
+	display: flex;
+	background-color:yellowgreen;
+	height: 3rem;
+	font-size: 2rem;
+	font-family: 'Pacifico', cursive;
+}
+html {
+overflow-x: hidden;
+overflow-y: scroll;
+	height: 100%;
+	width: 100%;
+}
+.conyainer_1 {
+	display: flex;
+	padding: 2rem;
+	border: 2px solid red;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+.container_1{	
+	position: fixed;
+	width: 100%;
+	top: 0%;
+	
+}
+.box_1{
+	flex: 6;
+	text-decoration: none;
+	padding-left: 2rem;
+}
+.box_2{
+	flex: 1;
+	text-decoration: none;
+}
+.box_3{
+	flex: 1;
+	text-decoration: none;
+}
+body{
+	background: #fff url(../img/palms2.jpg) center center no-repeat;
+	background-size: cover;	 
+	
+}
+.main_box{
+	background-color: lightgreen;
+	display: inline-block;
+	margin-top: 20rem;
+	font-family: 'Pacifico', cursive;
+	height: 4rem;
+	width: 10rem;
+	font-size: 2rem;
+	padding-top: 2rem;
+	flex: 4;
+	text-align: center;
+	
+}
+.forecast{
+	display: inline-block;
+	float: right;
+	font-family: 'Pacifico', cursive;
+	line-height: 1.5;
+	color: darkorange;
+	flex: 1;
+	
+}
+.forecast h1{
+	color: yellow;
+}
+.container_2{
+	display: flex;
+}
+ .aside {
+	display: inline-block;
+    float: left;
+	 height: 250px;	
+	 line-height: 3.5;
+	 font-family: 'Pacifico', cursive;
+	 font-size: 1.2rem;
+	 width: 10rem;
+	 text-align: center;
+	 flex: 1;
+	 text-align: center
+   }
+.aside a{
+text-decoration: none;
+}
+
+a:hover{
+	color : yellow;
+}
+a:active{
+	color:pink;
+}
+.fot{
+	position: absolute;
+	display: block;	
+	width: 100%;
+	bottom: 0%;
+	text-align: center;
+}
+.smth{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	float: right;
+}
+.smth2{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+
+}
+a{
+	color:black;
+}
+.trash{
+	display: inline-block;
+	left: 20%;
+	bottom: 20%;
+}
+
+
+.second_line{
+	display: flex;
+	margin-top: 5rem;
+}
+
+.third_line{
+	color: white;
+	
+}
+.btn{
+	display: inline-block;
+}
+.blue_btn{
+	background-color: goldenrod;
+	border: none;
+	
+	margin-top: 10px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Pacifico', cursive;
+	border-radius: 8px;
+	box-shadow: 0 8px 13px rgba(0,0,0,.04);
+	cursor: pointer;
+	width: 8rem;
+	height: 5rem;
+}
+.blue_btn:hover{
+	background-color: blue;
+	
+}
+
+textarea placeholder::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    color: red;
+}
+video{
+	float: right;
+	height: 400px;
+	width: 400px;
+	top: 50%;
+}
+video{
+	
+}
+
+
