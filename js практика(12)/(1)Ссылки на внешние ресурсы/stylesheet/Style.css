@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+     margin-top: 10rem;
+}
+.wrapper a{
+    text-decoration: none;
+/*    color: black;*/
+    font-size: 1.5rem;
+    transition: 0.1s;
+   
+}
+.wrapper a:hover{
+    color: red;
+}
+/*
+a{
+    color: black;
+}
+*/
+
+/*
+.out{
+    color: yellow;
+}
+*/

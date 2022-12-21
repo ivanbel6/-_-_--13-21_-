@@ -1,0 +1,13 @@
+.notification{
+    background-color: silver;
+/*    display: inline-block;*/
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    font-size: 2.5rem;
+    padding: 30px;
+    transition: 0.5s;
+}
+body{
+    transition: 0.5s;
+}
